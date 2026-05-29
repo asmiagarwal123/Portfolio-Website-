@@ -122,12 +122,14 @@
 
         .text-gradient {
             background: linear-gradient(135deg, var(--text-main) 0%, var(--text-muted) 100%);
+            background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
         
         .accent-gradient {
             background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
+            background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -832,7 +834,7 @@
                 A <span id="typewriter" class="accent-gradient"></span><span class="cursor">|</span>
             </div>
             <p class="hero-subtitle animate-on-scroll delay-200 visible">
-                Turning ideas into intelligent systems — from hackathons to humanitarian tech.
+                AI & ML student building practical solutions in agriculture, geospatial intelligence, civic tech, accessibility, and blockchain.
             </p>
             <div class="hero-cta animate-on-scroll delay-300 visible">
                 <a href="#projects" class="btn btn-primary hover-interactive">View My Work</a>
@@ -854,9 +856,9 @@
                     "I believe the best engineers are also great communicators."
                 </div>
                 <div class="about-bio animate-on-scroll delay-100">
-                    <p>I'm a 2nd-year B.Tech AI/ML student at Symbiosis Institute of Technology, Hyderabad. I build AI-powered solutions that solve real problems — from government civic systems to refugee identity platforms.</p>
+                    <p>I’m an AI & ML student at Symbiosis Institute of Technology, Hyderabad, with hands-on experience in Python, AI/ML, blockchain, Google Cloud, and full-stack development. My work spans real-world products, hackathons, and leadership roles in institutional events.</p>
                     <br>
-                    <p>Beyond coding, I anchor TEDx events, lead institutional programs, and actively compete in national hackathons to push the boundaries of impactful tech.</p>
+                    <p>Alongside building impactful solutions, I also anchor TEDx events, coordinate large-scale campus programs, and strengthen my technical depth through continuous learning and collaboration.</p>
                 </div>
             </div>
 
@@ -868,8 +870,8 @@
                 </div>
                 <div class="stat-card animate-on-scroll delay-200">
                     <i class="ph ph-medal stat-icon"></i>
-                    <div class="stat-title">Google Cloud Certified</div>
-                    <div class="text-muted" style="font-size: 0.9rem; margin-top: 0.5rem;">AI App Dev & Prompt Design</div>
+                    <div class="stat-title">Google Cloud Skills</div>
+                    <div class="text-muted" style="font-size: 0.9rem; margin-top: 0.5rem;">AI Applications & Prompt Design</div>
                 </div>
                 <div class="stat-card animate-on-scroll delay-300">
                     <i class="ph ph-microphone-stage stat-icon"></i>
@@ -893,6 +895,10 @@
                     <div class="skill-pill hover-interactive"><i class="ph ph-chart-line-up"></i> R</div>
                     <div class="skill-pill hover-interactive"><i class="ph ph-file-html"></i> HTML/CSS</div>
                     <div class="skill-pill hover-interactive"><i class="ph ph-file-js"></i> JavaScript</div>
+                    <div class="skill-pill hover-interactive"><i class="ph ph-react-logo"></i> React</div>
+                    <div class="skill-pill hover-interactive"><i class="ph ph-server"></i> Node.js</div>
+                    <div class="skill-pill hover-interactive"><i class="ph ph-database"></i> MySQL</div>
+                    <div class="skill-pill hover-interactive"><i class="ph ph-code"></i> Java</div>
                 </div>
             </div>
 
@@ -928,75 +934,77 @@
                 <!-- Project 1 -->
                 <div class="project-card animate-on-scroll">
                     <div class="project-tags">
-                        <span class="tag">Python</span>
-                        <span class="tag">AI/ML</span>
-                        <span class="tag">Mobile</span>
+                        <span class="tag">Edge AI</span>
+                        <span class="tag">Digital Twin</span>
+                        <span class="tag">Blockchain</span>
                     </div>
-                    <h3 class="project-title">Civic Issue Reporting System</h3>
-                    <p class="project-desc">Public app for citizens to report civic issues with AI-powered priority filtering and live status updates to a government dashboard.</p>
+                    <h3 class="project-title">AGRI-TWIN</h3>
+                    <p class="project-desc">Offline-first AI platform for smallholder farmers using on-device crop diagnostics, digital twin modeling, and blockchain-based insurance for instant automated payouts.</p>
                 </div>
 
                 <!-- Project 2 -->
                 <div class="project-card animate-on-scroll delay-100">
                     <div class="project-tags">
-                        <span class="tag">Browser Ext</span>
-                        <span class="tag">On-Device AI</span>
+                        <span class="tag">React</span>
+                        <span class="tag">FastAPI</span>
+                        <span class="tag">GEE</span>
                     </div>
-                    <h3 class="project-title">NeuroLens</h3>
-                    <p class="project-desc">AI browser extension that adapts web content in real time for cognitive accessibility — enhancing readability without compromising privacy.</p>
+                    <h3 class="project-title">AstroSanket</h3>
+                    <p class="project-desc">Decentralized geospatial intelligence platform that combines traditional ecological knowledge with satellite data and AI for climate resilience insights.</p>
                 </div>
 
                 <!-- Project 3 -->
                 <div class="project-card animate-on-scroll delay-200">
                     <div class="project-tags">
-                        <span class="tag">Algorand</span>
-                        <span class="tag">Pera Wallet</span>
-                        <span class="tag">Off-Chain</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">AI/ML</span>
+                        <span class="tag">Mobile</span>
                     </div>
-                    <h3 class="project-title">Blockchain Refugee Identity System</h3>
-                    <p class="project-desc">Tamper-proof decentralized identity system empowering refugees to own and control their data with transparent, fraud-resistant aid distribution.</p>
+                    <h3 class="project-title">Civic Issue Reporting System</h3>
+                    <p class="project-desc">Citizens report civic issues to a live government dashboard with AI-powered priority filtering and real-time status updates.</p>
                 </div>
 
                 <!-- Project 4 -->
                 <div class="project-card animate-on-scroll">
                     <div class="project-tags">
-                        <span class="tag">Python</span>
-                        <span class="tag">AI/ML</span>
-                        <span class="tag">Full-Stack</span>
+                        <span class="tag">Browser Ext</span>
+                        <span class="tag">On-Device AI</span>
                     </div>
-                    <h3 class="project-title">AI College Management</h3>
-                    <p class="project-desc">Comprehensive college management platform with AI-enhanced workflows for records, scheduling, and reporting.</p>
+                    <h3 class="project-title">NeuroLens</h3>
+                    <p class="project-desc">Cognitive accessibility extension that adapts web content in real time for individual needs without compromising user privacy.</p>
                 </div>
 
                 <!-- Project 5 -->
                 <div class="project-card animate-on-scroll delay-100">
                     <div class="project-tags">
-                        <span class="tag">AI</span>
-                        <span class="tag">Logistics</span>
+                        <span class="tag">Algorand</span>
+                        <span class="tag">Pera Wallet</span>
+                        <span class="tag">Identity</span>
                     </div>
-                    <h3 class="project-title">CMPUScycle</h3>
-                    <p class="project-desc">Hyper-local circular economy platform using crowdsourced logistics, AI defect grading, and dynamic pricing to reduce campus reverse logistics waste.</p>
+                    <h3 class="project-title">Blockchain Refugee Identity System</h3>
+                    <p class="project-desc">Tamper-proof decentralized identity system empowering refugees with consent-based data ownership and transparent aid distribution.</p>
                 </div>
 
                 <!-- Project 6 -->
                 <div class="project-card animate-on-scroll delay-200">
                     <div class="project-tags">
                         <span class="tag">Python</span>
-                        <span class="tag">NLP</span>
-                        <span class="tag">ML</span>
+                        <span class="tag">Full-Stack</span>
+                        <span class="tag">AI/ML</span>
                     </div>
-                    <h3 class="project-title">Intelligent AI Chatbot</h3>
-                    <p class="project-desc">Intelligent conversational chatbot for customer support, Q&A, and automated assistance using NLP techniques.</p>
+                    <h3 class="project-title">AI-Driven Campus Management & Re-Commerce Platform</h3>
+                    <p class="project-desc">Integrated system combining college management workflows with campus re-commerce using AI-based defect grading and dynamic pricing.</p>
                 </div>
 
                 <!-- Project 7 -->
                 <div class="project-card animate-on-scroll">
                     <div class="project-tags">
-                        <span class="tag">HTML/CSS/JS</span>
-                        <span class="tag">Design</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">NLP</span>
+                        <span class="tag">ML</span>
                     </div>
-                    <h3 class="project-title">Portfolio Website</h3>
-                    <p class="project-desc">Responsive, premium portfolio site with smooth UX, showcasing projects, skills, and professional brand presence.</p>
+                    <h3 class="project-title">AI Chatbot</h3>
+                    <p class="project-desc">Conversational chatbot for customer support, Q&A, and automated assistance using NLP and ML techniques.</p>
                 </div>
             </div>
         </div>
@@ -1105,16 +1113,16 @@
                 <div class="cert-card animate-on-scroll hover-interactive">
                     <div class="cert-icon"><i class="ph ph-certificate"></i></div>
                     <div>
-                        <div style="font-weight: 600;">C Programming</div>
-                        <div style="font-size: 0.85rem; color: var(--text-muted);">Infosys Springboard</div>
+                        <div style="font-weight: 600;">NVIDIA Fundamentals of Accelerated Data Science</div>
+                        <div style="font-size: 0.85rem; color: var(--text-muted);">NVIDIA</div>
                     </div>
                 </div>
                 
                 <div class="cert-card animate-on-scroll delay-100 hover-interactive">
                     <div class="cert-icon"><i class="ph ph-certificate"></i></div>
                     <div>
-                        <div style="font-weight: 600;">Python Programming</div>
-                        <div style="font-size: 0.85rem; color: var(--text-muted);">Infosys Springboard</div>
+                        <div style="font-weight: 600;">Python Programming for Beginners</div>
+                        <div style="font-size: 0.85rem; color: var(--text-muted);">ScholarHat</div>
                     </div>
                 </div>
 
@@ -1122,7 +1130,7 @@
                     <div class="cert-icon"><i class="ph ph-google-logo"></i></div>
                     <div>
                         <div style="font-weight: 600;">Google Cloud Skill Badge</div>
-                        <div style="font-size: 0.85rem; color: var(--text-muted);">AI App Dev & Prompt Design</div>
+                        <div style="font-size: 0.85rem; color: var(--text-muted);">AI Applications & Prompt Design</div>
                     </div>
                 </div>
                 
@@ -1130,7 +1138,7 @@
                     <div class="cert-icon"><i class="ph ph-lightbulb"></i></div>
                     <div>
                         <div style="font-weight: 600;">Creative Thinking</div>
-                        <div style="font-size: 0.85rem; color: var(--text-muted);">Infosys</div>
+                        <div style="font-size: 0.85rem; color: var(--text-muted);">Infosys Springboard</div>
                     </div>
                 </div>
 
@@ -1138,7 +1146,7 @@
                     <div class="cert-icon"><i class="ph ph-browsers"></i></div>
                     <div>
                         <div style="font-weight: 600;">Go for Web Development</div>
-                        <div style="font-size: 0.85rem; color: var(--text-muted);">Infosys</div>
+                        <div style="font-size: 0.85rem; color: var(--text-muted);">Infosys Springboard</div>
                     </div>
                 </div>
             </div>
@@ -1157,8 +1165,9 @@
                 </a>
                 
                 <div class="social-links">
-                    <a href="https://www.linkedin.com/in/asmi-agarwal-4793803a5/" target="_blank" class="social-btn hover-interactive"><i class="ph ph-linkedin-logo"></i></a>
-                    <a href="https://github.com/asmiagarwal123" target="_blank" class="social-btn hover-interactive"><i class="ph ph-github-logo"></i></a>
+                    <a href="https://www.linkedin.com/in/asmi-agarwal-4793803a5/" target="_blank" rel="noopener noreferrer" class="social-btn hover-interactive"><i class="ph ph-linkedin-logo"></i></a>
+                    <a href="https://github.com/asmiagarwal123" target="_blank" rel="noopener noreferrer" class="social-btn hover-interactive"><i class="ph ph-github-logo"></i></a>
+                    <a href="https://www.cloudskillsboost.google/" target="_blank" rel="noopener noreferrer" class="social-btn hover-interactive"><i class="ph ph-google-logo"></i></a>
                 </div>
                 
                 <div class="languages-note">
